@@ -1,0 +1,64 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contacto</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <div class="brand">Furni · Practica Incos</div>
+    <nav class="menu">
+      <a href="index.html" class="">Home</a>
+      <a href="tienda.html" class="">Tienda</a>
+      <a href="acerca.html" class="">Acerca</a>
+      <a href="servicios.html" class="">Servicios</a>
+      <a href="blog.html" class="">Blog</a>
+      <a href="contacto.html" class="active">Contacto</a>
+    </nav>
+  </div>
+</header>
+<section class="section">
+  <div class="container">
+    <h2>Contacto</h2>
+    <div class="grid" style="grid-template-columns:1fr;">
+      <div class="card"><div class="pad">
+        <div class="small">📍 43 Raymond St, Baltimore, London 3910</div>
+        <div class="small">✉️ info@yoursdomain.com · ☎ +1 234 3925 3939</div>
+        <div class="note">Este formulario es solo demostrativo (no envía datos).</div>
+        <form class="form" onsubmit="event.preventDefault(); alert('Mensaje enviado (demo)');">
+          <input placeholder="First name" required>
+          <input placeholder="Last name" required>
+          <input placeholder="Email address" type="email" required>
+          <textarea placeholder="Message"></textarea>
+          <div class="actions"><button class="btn primary" type="submit">Send Message</button></div>
+        </form>
+      </div></div>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="container cols">
+    <div>
+      <h3>Modern Interior Design Studio</h3>
+      <p class="small">Plantilla para práctica de Fork & Pull Request (mínimo 5 commits y 1 PR).</p>
+    </div>
+    <div>
+      <h4>Enlaces</h4>
+      <div><a href="index.html">Home</a></div>
+      <div><a href="tienda.html">Tienda</a></div>
+      <div><a href="acerca.html">Acerca</a></div>
+      <div><a href="servicios.html">Servicios</a></div>
+    </div>
+    <div>
+      <h4>Contacto</h4>
+      <div class="small">43 Raymond St, Baltimore, London 3910</div>
+      <div class="small">info@yoursdomain.com · +1 234 3925 3939</div>
+    </div>
+  </div>
+  <div class="container small" style="padding:10px 0;border-top:1px solid #243044">© 2024</div>
+</footer>
+</body>
+</html>
